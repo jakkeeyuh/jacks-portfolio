@@ -22,7 +22,11 @@ body{
   padding: 1rem
 }
 
-
+.contactNav{
+  font-family: 'Sometype Mono', monospace;
+  font-size: 1em;
+  padding: 1rem
+}
 
 .fa {
     padding: 1rem;
