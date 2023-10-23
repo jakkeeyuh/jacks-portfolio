@@ -2,9 +2,31 @@ body{
     background-color: #E5BEED;
 }
 
+.homeNav{
+  font-family: 'Sometype Mono', monospace;
+  font-size: 1em;
+  padding: 1rem;
+  border-radius: 40%;
+
+}
+
+.aboutNav{
+  font-family: 'Sometype Mono', monospace;
+  font-size: 1em;
+  padding: 1rem
+}
+
+.workNav {
+  font-family: 'Sometype Mono', monospace;
+  font-size: 1em;
+  padding: 1rem
+}
+
+
+
 .fa {
     padding: 1rem;
-    font-size: 1rem;
+    font-size: 1em;
     width: 1rem;
     text-align: center;
     text-decoration: none;
