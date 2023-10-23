@@ -1,0 +1,38 @@
+body{
+    background-color: #E5BEED;
+}
+
+.fa {
+    padding: 1rem;
+    font-size: 1rem;
+    width: 1rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-twitter {
+    background: #1DA1F2;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #0077B5;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #405DE6;
+    color: white;
+  }
+
+  .fa-github {
+    background: #c9510c;
+    color: white;
+  }
+
+  
