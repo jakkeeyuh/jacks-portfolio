@@ -29,9 +29,9 @@
 
 
 
-    <div class="home">
+    <div class="home" id="home">
         <header>
-            <h1 id="home">welcome!!</h1>
+            <h1>welcome!!</h1>
         </header>
         <main class="main">
             <p>hi! welcome to my professional portfolio!! my name is jack and i'm a developer who prioritizes responsiveness and user
@@ -40,7 +40,7 @@
         </main>
     </div>
 
-    <div class="about">
+    <div class="about" id="about">
         <header class="about-header">
             <h2>about me</h2>
         </header>
@@ -61,32 +61,32 @@
 
     </div>
 
-    <div class="work"> 
+    <div class="work" id="work"> 
         <header class="work-header"> 
             <h2> my work</h2>
         </header>
         <main class="work-main"> 
             
             <div class="works">
-                <h4>work #1</h4>
+                <h4><a href="http://" class="work-link">work #1</a></h4>
                 <img src="/pics/sabina-music-rich-OJy0JHnoUZQ-unsplash.jpg" alt="work #1 cover" class="work-img">
                 <p class="work-desc">work #1 lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
            
             <div class="works">
-                <h4>work #2</h4>
+                <h4><a href="http://" class="work-link">work #2</a></h4>
                 <img src="/pics/mathew-schwartz-8rj4sz9YLCI-unsplash.jpg" alt="work #2 cover" class="work-img">
                 <p class="work-desc">work #2 lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
             
             <div class="works">
-                <h4>work #3</h4>
+                <h4><a href="http://" class="work-link">work #3</a></h4>
                 <img src="/pics/mathew-schwartz-h5YWLpNZYqI-unsplash.jpg" alt="work #3 cover" class="work-img">
                 <p class="work-desc">work #3 lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
             
             <div class="works">
-                <h4>work #4</h4>
+                <h4><a href="http://" class="work-link">work #4</a></h4>
                 <img src="/pics/mathew-macquarrie-u6OnpbMuZAs-unsplash.jpg" alt="work #4 cover" class="work-img">
                 <p class="work-desc">work #4 lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
@@ -99,7 +99,42 @@
         </main>
     </div>
 
-    <div class="contact">
+    <div class="contact" id="contact">
+        <header>
+            <h2>contact me </h2>
+        </header>
+          
+        <div class="contact-text">
+            <p>
+            <p>feel free to reach out to me!!</p>
+            <p><a href="mailto:ja.wangi2017@gmail.com" class="contact-links">my email</a></p>
+            <p><a href="www.linkedin.com/in/jacqueline-wangi" class="contact-links">my linkedin</a></p>
+        </div>
+                
+
+        <div class="contact-container">
+            <form action="action_page.php">
+          
+              <label for="name">name</label>
+              <input type="text" id="name" name="name" placeholder="your name">
+          
+              <label for="email">email</label>
+              <input type="text" id="email" name="email" placeholder="your email">
+
+              <label for="subject">subject</label>
+              <textarea type= "text" id="subject" name="subject" placeholder="your message..." style="height:100px"></textarea>
+          
+              <input type="submit" value="submit">
+          
+            </form>
+          </div>
+
+          <div class="socials">
+            <a href="www.linkedin.com/in/jacqueline-wangi" class="fa fa-linkedin"></a>
+            <a href="https://github.com/jakkeeyuh" class="fa fa-github"></a>
+            <a href="https://twitter.com/jakkeeyuh" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/jakkkeeeyuh/" class="fa fa-instagram"></a>
+            </div>
 
     </div>
 
@@ -107,14 +142,7 @@
 
 <br>
 <footer>
-
-    <!-- add linkedin, github, twitter, insta-->
-    <div class="socials">
-    <a href="www.linkedin.com/in/jacqueline-wangi" class="fa fa-linkedin"></a>
-    <a href="https://github.com/jakkeeyuh" class="fa fa-github"></a>
-    <a href="https://twitter.com/jakkeeyuh" class="fa fa-twitter"></a>
-    <a href="https://www.instagram.com/jakkkeeeyuh/" class="fa fa-instagram"></a>
-    </div>
+    &copy 2023 made by jack wangi
 </footer>
 
 </html>

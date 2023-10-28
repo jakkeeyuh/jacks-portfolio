@@ -26,6 +26,7 @@ nav {
   padding-right: 15px;
   font-size: 1.2rem; 
   padding-right: 15px;
+  gap: 15px;
 }
 
 .nav-links li {
@@ -55,7 +56,7 @@ nav {
   font-size: 35px;
 }
 .main p{
-  max-width: 75%;
+  max-width: 80%;
   margin: 0 auto;
   text-align: center;
 }
@@ -64,7 +65,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  padding: 5px;
 }
 
 .about-main {
@@ -78,11 +79,17 @@ nav {
 img{
 width: 50%;
 align-content: center;
-padding-left: 25%;
+padding: 5%;
+border-radius: 50%;
+}
+
+.img-container{
+  padding-left: 25%;
 }
 
 h2{
   font-size: 2.5rem;
+  text-align: center;
 }
 
 .work-header {
@@ -92,7 +99,8 @@ h2{
 .work-main{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 15px;
+  gap: 20px;
+  padding: 20px;
 }
 
 .works {
@@ -100,7 +108,67 @@ h2{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 30px;
+}
+
+.work-link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  text-align: center;
+}
+
+.contact-text a {
+  text-decoration: none;
+  color: black;
+  font-style: oblique;
+  border-style: dashed;
+  border-width: .75px;
+  border-radius: 90%;
+  padding: 2.3%;
+  font-weight: bold;
+}
+
+.contact-text a:hover{
+  text-decoration: underline;
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 10px; 
+  border: 1px solid #DBCBD8; 
+  border-radius: 5px; 
+  box-sizing: border-box; 
+  margin-top: 5px; 
+  margin-bottom: 5px; 
+  resize: vertical; 
+}
+
+input[type=submit] {
+  background-color: #619ba3;
+  color: #593959;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+input[type=submit]:hover {
+  background-color: #5d7f9a;
+}
+
+.contact-container {
+  border-radius: 5px;
+  padding: 25px;
 }
 
 .socials {
@@ -108,8 +176,8 @@ h2{
 }
 
 .fa {
-    padding: 1rem;
-    font-size: 1em;
+    padding: 1.5rem;
+    font-size: 1rem;
     width: 1rem;
     text-align: center;
     text-decoration: none;
@@ -138,4 +206,12 @@ h2{
   .fa-github {
     background: #c9510c;
     color: white;
+  }
+
+  footer{
+    text-align: center;
+    background-color: #f0afe3;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 50%;
   }
